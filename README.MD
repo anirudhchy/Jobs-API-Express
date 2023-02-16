@@ -1,3 +1,20 @@
+
+# Jobs API
+
+RESTful Express API with full CRUD functionality
+
+
+## Demo
+
+https://jobs-api-wcxm.onrender.com
+
+
+
+## Screenshot
+
+![App Screenshot](https://res.cloudinary.com/dt30ejyew/image/upload/v1676527676/Github%20Readme%20SS/Screenshot_2023-02-16_at_11.37.35_AM_lh2vor.png)
+--
+
 #### Setup
 
 ```bash
@@ -57,16 +74,3 @@ Email Validation Regex
 - xss-clean {sanitizes the user input in body,params etc , prevent cross site scripting attacks}
 
 - express-rate-limit {limits the amount of requests that the user can make}
-
-Swagger UI
-
-```yaml
-/jobs/{id}:
-  parameters:
-    - in: path
-      name: id
-      schema:
-        type: string
-      required: true
-      description: the job id
-```
